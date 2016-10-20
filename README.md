@@ -1,7 +1,8 @@
-# drache93/resin-opencv [![Build Status](https://travis-ci.org/siomiz/node-opencv.svg?branch=master)](https://travis-ci.org/siomiz/node-opencv)
+# drache93/resin-opencv
 
-### Docker Automated Build Repository/Image for resin/raspberrypi3-python + opencv 3.1.0
+### Docker Automated Build for resin/raspberrypi3-python + opencv 3.1.0
 
-Official Node.js "latest" image + OpenCV 3.1.0 (built from [source][1], not a full stack) for `npm install opencv` to work.
+Latest Raspberry Pi 3 (Python 2.7) image for [resin.io][1] + OpenCV 3.1.0 (built from [source][2]).
 
-  [1]: https://github.com/itseez/opencv
+  [1]: https://resin.io/
+  [2]: https://github.com/itseez/opencv
