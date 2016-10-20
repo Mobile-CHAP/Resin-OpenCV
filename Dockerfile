@@ -3,8 +3,7 @@ FROM resin/raspberrypi3-python:latest
 MAINTAINER Dominic Cassidy <dominic.cassidy@postgrad.plymouth.ac.uk>
 
 RUN apt-get update && \
-	DEBIAN_FRONTEND=noninteractive \
-	apt-get install -y cmake
+	apt-get install -y cmake python-numpy python-scipy
 	
 RUN git clone https://github.com/itseez/opencv.git /usr/local/src/opencv 
 
