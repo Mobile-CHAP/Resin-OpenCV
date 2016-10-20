@@ -1,6 +1,6 @@
-FROM node:latest
+FROM resin/raspberrypi3-python:latest
 
-MAINTAINER Tomohisa Kusano <siomiz@gmail.com>
+MAINTAINER Dominic Cassidy <dominic.cassidy@postgrad.plymouth.ac.uk>
 
 ENV OPENCV_VERSION 3.1.0
 
@@ -9,5 +9,3 @@ RUN bash /build.sh \
 	&& rm /build.sh
 
 ENV LD_LIBRARY_PATH /usr/local/lib
-
-CMD ["node"]
