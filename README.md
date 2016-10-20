@@ -1,4 +1,4 @@
-# Resin-OpenCV (Raspberry Pi 3) [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/drache93/resin-opencv/)
+# Resin-OpenCV (Raspberry Pi 3) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Mobile-CHAP/resin-opencv)
 
 ### Docker Automated Build for resin/raspberrypi3-python + opencv 3.1.0
 

@@ -1,0 +1,13 @@
+sudo: required
+
+language: python
+python:
+  - "2.7"
+
+services:
+  - docker
+
+before_install:
+- docker pull drache93/resin-opencv
+- docker ps -a
+- docker run drache93/resin-opencv /bin/sh -c "python test.py"
