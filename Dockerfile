@@ -14,8 +14,10 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
 RUN cd /usr/local/src/opencv/release && \
 make && make install
 
-rm -rf /usr/local/src/opencv \
+RUN rm -rf /usr/local/src/opencv \
 	&& apt-get purge -y cmake \
 	&& apt-get autoremove -y --purge
 
 ENV LD_LIBRARY_PATH /usr/local/lib
+
+ADD test.py /test.py
